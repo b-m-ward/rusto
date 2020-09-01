@@ -1,3 +1,8 @@
+mod guessing;
+mod funcs;
+
 fn main() {
-    println!("Hello, world!");
+    guessing::guessing_game(10);
+
+
 }
